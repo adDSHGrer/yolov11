@@ -1,0 +1,16 @@
+#文件绝对路径！！！
+#数据集
+path: D:\python123\ultralytics\datas
+#训练集(相对path)
+train: images/train
+#验证集(相对path)
+val: images/val
+
+# Classes  分类
+names:
+  0: "井盖破损"
+  1: "地面塌陷"
+  2: "有物品覆盖井盖"
+  3: "井盖缺失"
+  4: "井盖位移"
+  5: "完整"
